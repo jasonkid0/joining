@@ -12,7 +12,7 @@ $sql = "SELECT students.first_name,
     LEFT JOIN exams ON exams.exam_id = grades.exam_id
     LEFT JOIN courses ON courses.course_id = grades.course_id
     LEFT JOIN majors ON majors.major_id = grades.major_id
-    LEFT JOIN students ON students.student_id = grades.student_id
+    LEFT JOIN students ON  students.student_id = grades.student_id
  ";
 $result = mysqli_query($conn, $sql);
 
