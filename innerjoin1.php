@@ -35,6 +35,7 @@ $result = mysqli_query($conn, $sql);
               <tr>
                 <th>First Name</th>
                 <th>Last Name</th>
+                
                 <th>Exam Name</th>
                 <th>Date</th>
                 <th>Grade Value</th> 
@@ -49,6 +50,7 @@ $result = mysqli_query($conn, $sql);
                     <tr >
                         <td> '.$row["first_name"].' </td>
                         <td> '.$row["last_name"].' </td>
+                        
                         <td> '.$row["exam_name"].' </td>
                         <td> '.$row["date"].' </td>
                         <td> '.$row["grade_value"].' </td>
